@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* CatIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* CatIllustration.swift */; };
+		A10000000000000000000002 /* DesktopPetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* DesktopPetController.swift */; };
+		A10000000000000000000003 /* PetRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* PetRootView.swift */; };
+		A10000000000000000000004 /* PetSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* PetSettings.swift */; };
+		A10000000000000000000005 /* DeskBuddiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* DeskBuddiesApp.swift */; };
+		A10000000000000000000006 /* ThermalMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* ThermalMonitor.swift */; };
+		A10000000000000000000007 /* TempurrNominal.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* TempurrNominal.png */; };
+		A10000000000000000000008 /* TempurrFair.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* TempurrFair.png */; };
+		A10000000000000000000009 /* TempurrSerious.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* TempurrSerious.png */; };
+		A1000000000000000000000A /* TempurrCritical.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* TempurrCritical.png */; };
+		A1000000000000000000000B /* TempurrDelighted.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* TempurrDelighted.png */; };
+		A1000000000000000000000C /* TempurrWink.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* TempurrWink.png */; };
+		A1000000000000000000000D /* TempurrAnnoyed.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* TempurrAnnoyed.png */; };
+		A1000000000000000000000E /* TempurrRelaxed.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* TempurrRelaxed.png */; };
+		A1000000000000000000000F /* PetMotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* PetMotionModel.swift */; };
+		A10000000000000000000010 /* TempurrWalk0.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* TempurrWalk0.png */; };
+		A10000000000000000000011 /* TempurrWalk1.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* TempurrWalk1.png */; };
+		A10000000000000000000012 /* TempurrWalk2.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* TempurrWalk2.png */; };
+		A10000000000000000000013 /* TempurrWalk3.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* TempurrWalk3.png */; };
+		A10000000000000000000014 /* TempurrWalk4.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* TempurrWalk4.png */; };
+		A10000000000000000000015 /* TempurrWalk5.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* TempurrWalk5.png */; };
+		A10000000000000000000016 /* CatSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* CatSoundPlayer.swift */; };
+		A10000000000000000000017 /* TempurrGroom0.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* TempurrGroom0.png */; };
+		A10000000000000000000018 /* TempurrGroom1.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001A /* TempurrGroom1.png */; };
+		A10000000000000000000019 /* TempurrGroom2.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* TempurrGroom2.png */; };
+		A1000000000000000000001A /* TempurrGroom3.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* TempurrGroom3.png */; };
+		A1000000000000000000001B /* TempurrGroom4.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* TempurrGroom4.png */; };
+		A1000000000000000000001C /* TempurrGroom5.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* TempurrGroom5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000000 /* DeskBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000001 /* CatIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatIllustration.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* DesktopPetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPetController.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* PetRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* PetSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSettings.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* DeskBuddiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskBuddiesApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* ThermalMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalMonitor.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000008 /* Tempurr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tempurr.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000009 /* TempurrNominal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrNominal.png; sourceTree = "<group>"; };
+		A2000000000000000000000A /* TempurrFair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrFair.png; sourceTree = "<group>"; };
+		A2000000000000000000000B /* TempurrSerious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrSerious.png; sourceTree = "<group>"; };
+		A2000000000000000000000C /* TempurrCritical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrCritical.png; sourceTree = "<group>"; };
+		A2000000000000000000000D /* TempurrDelighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrDelighted.png; sourceTree = "<group>"; };
+		A2000000000000000000000E /* TempurrWink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrWink.png; sourceTree = "<group>"; };
+		A2000000000000000000000F /* TempurrAnnoyed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrAnnoyed.png; sourceTree = "<group>"; };
+		A20000000000000000000010 /* TempurrRelaxed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrRelaxed.png; sourceTree = "<group>"; };
+		A20000000000000000000011 /* PetMotionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMotionModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* TempurrWalk0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrWalk0.png; sourceTree = "<group>"; };
+		A20000000000000000000013 /* TempurrWalk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrWalk1.png; sourceTree = "<group>"; };
+		A20000000000000000000014 /* TempurrWalk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrWalk2.png; sourceTree = "<group>"; };
+		A20000000000000000000015 /* TempurrWalk3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrWalk3.png; sourceTree = "<group>"; };
+		A20000000000000000000016 /* TempurrWalk4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrWalk4.png; sourceTree = "<group>"; };
+		A20000000000000000000017 /* TempurrWalk5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrWalk5.png; sourceTree = "<group>"; };
+		A20000000000000000000018 /* CatSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSoundPlayer.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* TempurrGroom0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrGroom0.png; sourceTree = "<group>"; };
+		A2000000000000000000001A /* TempurrGroom1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrGroom1.png; sourceTree = "<group>"; };
+		A2000000000000000000001B /* TempurrGroom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrGroom2.png; sourceTree = "<group>"; };
+		A2000000000000000000001C /* TempurrGroom3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrGroom3.png; sourceTree = "<group>"; };
+		A2000000000000000000001D /* TempurrGroom4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrGroom4.png; sourceTree = "<group>"; };
+		A2000000000000000000001E /* TempurrGroom5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempurrGroom5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000001 /* Sources */,
+				A20000000000000000000007 /* Info.plist */,
+				A20000000000000000000008 /* Tempurr.entitlements */,
+				A40000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* CatIllustration.swift */,
+				A20000000000000000000002 /* DesktopPetController.swift */,
+				A20000000000000000000003 /* PetRootView.swift */,
+				A20000000000000000000004 /* PetSettings.swift */,
+				A20000000000000000000005 /* DeskBuddiesApp.swift */,
+				A20000000000000000000006 /* ThermalMonitor.swift */,
+				A20000000000000000000011 /* PetMotionModel.swift */,
+				A20000000000000000000018 /* CatSoundPlayer.swift */,
+				A40000000000000000000003 /* Resources */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000009 /* TempurrNominal.png */,
+				A2000000000000000000000A /* TempurrFair.png */,
+				A2000000000000000000000B /* TempurrSerious.png */,
+				A2000000000000000000000C /* TempurrCritical.png */,
+				A2000000000000000000000D /* TempurrDelighted.png */,
+				A2000000000000000000000E /* TempurrWink.png */,
+				A2000000000000000000000F /* TempurrAnnoyed.png */,
+				A20000000000000000000010 /* TempurrRelaxed.png */,
+				A20000000000000000000012 /* TempurrWalk0.png */,
+				A20000000000000000000013 /* TempurrWalk1.png */,
+				A20000000000000000000014 /* TempurrWalk2.png */,
+				A20000000000000000000015 /* TempurrWalk3.png */,
+				A20000000000000000000016 /* TempurrWalk4.png */,
+				A20000000000000000000017 /* TempurrWalk5.png */,
+				A20000000000000000000019 /* TempurrGroom0.png */,
+				A2000000000000000000001A /* TempurrGroom1.png */,
+				A2000000000000000000001B /* TempurrGroom2.png */,
+				A2000000000000000000001C /* TempurrGroom3.png */,
+				A2000000000000000000001D /* TempurrGroom4.png */,
+				A2000000000000000000001E /* TempurrGroom5.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000000 /* DeskBuddies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* DeskBuddies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000001 /* Build configuration list for PBXNativeTarget "DeskBuddies" */;
+			buildPhases = (
+				A30000000000000000000002 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A30000000000000000000003 /* Resources */,
+				A30000000000000000000004 /* Copy Pet Profiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeskBuddies;
+			productName = DeskBuddies;
+			productReference = A20000000000000000000000 /* DeskBuddies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = A60000000000000000000002 /* Build configuration list for PBXProject "DeskBuddies" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000000;
+			productRefGroup = A40000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* DeskBuddies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000007 /* TempurrNominal.png in Resources */,
+				A10000000000000000000008 /* TempurrFair.png in Resources */,
+				A10000000000000000000009 /* TempurrSerious.png in Resources */,
+				A1000000000000000000000A /* TempurrCritical.png in Resources */,
+				A1000000000000000000000B /* TempurrDelighted.png in Resources */,
+				A1000000000000000000000C /* TempurrWink.png in Resources */,
+				A1000000000000000000000D /* TempurrAnnoyed.png in Resources */,
+				A1000000000000000000000E /* TempurrRelaxed.png in Resources */,
+				A10000000000000000000010 /* TempurrWalk0.png in Resources */,
+				A10000000000000000000011 /* TempurrWalk1.png in Resources */,
+				A10000000000000000000012 /* TempurrWalk2.png in Resources */,
+				A10000000000000000000013 /* TempurrWalk3.png in Resources */,
+				A10000000000000000000014 /* TempurrWalk4.png in Resources */,
+				A10000000000000000000015 /* TempurrWalk5.png in Resources */,
+				A10000000000000000000017 /* TempurrGroom0.png in Resources */,
+				A10000000000000000000018 /* TempurrGroom1.png in Resources */,
+				A10000000000000000000019 /* TempurrGroom2.png in Resources */,
+				A1000000000000000000001A /* TempurrGroom3.png in Resources */,
+				A1000000000000000000001B /* TempurrGroom4.png in Resources */,
+				A1000000000000000000001C /* TempurrGroom5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A30000000000000000000004 /* Copy Pet Profiles */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Sources/Resources",
+			);
+			name = "Copy Pet Profiles";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"$SRCROOT/Sources/Resources\" \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* CatIllustration.swift in Sources */,
+				A10000000000000000000002 /* DesktopPetController.swift in Sources */,
+				A10000000000000000000003 /* PetRootView.swift in Sources */,
+				A10000000000000000000004 /* PetSettings.swift in Sources */,
+				A10000000000000000000005 /* DeskBuddiesApp.swift in Sources */,
+				A10000000000000000000006 /* ThermalMonitor.swift in Sources */,
+				A1000000000000000000000F /* PetMotionModel.swift in Sources */,
+				A10000000000000000000016 /* CatSoundPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tempurr/Tempurr.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_APP_SANDBOX = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tempurr/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempurr.desktoppet;
+				PRODUCT_NAME = DeskBuddies;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = apple-generic;
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tempurr/Tempurr.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_APP_SANDBOX = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tempurr/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempurr.desktoppet;
+				PRODUCT_NAME = DeskBuddies;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = apple-generic;
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tempurr/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempurr.desktoppet;
+				PRODUCT_NAME = DeskBuddies;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tempurr/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempurr.desktoppet;
+				PRODUCT_NAME = DeskBuddies;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000001 /* Build configuration list for PBXNativeTarget "DeskBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Debug */,
+				A80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000002 /* Build configuration list for PBXProject "DeskBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003 /* Debug */,
+				A80000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70000000000000000000001 /* Project object */;
+}
