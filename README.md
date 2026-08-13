@@ -8,7 +8,7 @@ DeskBuddies is a small native macOS desktop-pet app. Choose a cat, dog, sloth, o
 
 DeskBuddies supports both Apple Silicon and Intel Macs running macOS 13 or newer. Download the DMG, open it, and drag **DeskBuddies** into **Applications**.
 
-The current community build is locally code-signed but not Apple-notarized. On first launch, macOS may ask you to Control-click DeskBuddies in Applications, choose **Open**, and confirm **Open**. The app does not require network, sensor, accessibility, or administrator permissions.
+The release is signed with a Developer ID Application certificate and notarized by Apple, so it opens normally through macOS Gatekeeper. The app does not require network, sensor, accessibility, or administrator permissions.
 
 ## Features
 
@@ -59,7 +59,7 @@ swift test
 swift run DeskBuddies
 ```
 
-To produce the same universal DMG and ZIP used by GitHub Releases:
+To produce the same universal, Developer ID signed and notarized DMG and ZIP used by GitHub Releases, first install the signing certificate and store a `notarytool` Keychain profile named `DeskBuddies-notary`. Then run:
 
 ```bash
 ./script/package_release.sh 1.0.0
