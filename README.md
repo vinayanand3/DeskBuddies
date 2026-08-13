@@ -2,6 +2,8 @@
 
 DeskBuddies is a small native macOS desktop-pet app. Choose a cat, dog, sloth, or panda that changes color and behavior according to the Mac's supported thermal state, while also reacting to clicks like a digital fidget toy.
 
+The native app icon represents all four DeskBuddies profiles and is included at the full range of macOS Finder and Dock sizes.
+
 ## Download
 
 [Download DeskBuddies for macOS](https://github.com/vinayanand3/DeskBuddies/releases/latest/download/DeskBuddies.dmg)
